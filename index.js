@@ -23,6 +23,6 @@ function deepestChild() {
   .querySelectorAll('div')
   var test = '';
   for (i = 0; i < lis.length-1; i++) {
-    test = lis
+    test = lis[i].querySelector('div');
   }
 }
