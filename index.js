@@ -22,6 +22,6 @@ function deepestChild() {
   let nextLis = lis.children[0];
   while (nextLis) {
     lis = nextLis;
-    
+    nextLis = lis.children[0];
   }
 }
