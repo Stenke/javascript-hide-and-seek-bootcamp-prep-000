@@ -22,6 +22,7 @@ function deepestChild() {
   .getElementById('grand-node')
   var child = "";
   if (lis.hasChildNodes()) {
-    child = lis
+    child = lis.childNodes;
+    
   }
 }
