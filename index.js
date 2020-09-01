@@ -23,6 +23,7 @@ function deepestChild() {
   var child = "";
   if (lis.hasChildNodes()) {
     child = lis.childNodes;
-    
+    lis = child;
   }
+  return child;
 }
