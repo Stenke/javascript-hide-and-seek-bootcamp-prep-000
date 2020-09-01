@@ -21,6 +21,7 @@ function deepestChild() {
   let lis = document.querySelector('#grand-node')
   let nextLis = lis.children[0];
   while (nextLis) {
+    lis = nextLis;
     
   }
 }
