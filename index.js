@@ -18,5 +18,5 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  const lis
+  for
 }
