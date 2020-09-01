@@ -9,6 +9,6 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-  cost lis = document
-  .
+  const lis = document
+  .querySelectorAll('.ranked-list')
 }
