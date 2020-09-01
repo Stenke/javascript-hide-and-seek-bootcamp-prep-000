@@ -23,7 +23,7 @@ function deepestChild() {
   .querySelectorAll('div')
   var child = '';
   for (i = 0; i <lis.length-1; i++) {
-  child = lis[i].querySelector;
+  child = lis[i].querySelector.innerHTML;
   lis = child;
   }
   return lis;
