@@ -22,7 +22,7 @@ function deepestChild() {
   .getElementById('grand-node')
   .querySelectorAll('div')
   var child = '';
-  for (i = 0; i <lis.length; i++) {
+  for (i = 0; i <lis.length-1; i++) {
   child = lis[i].querySelector;
   lis = child;
   }
