@@ -18,12 +18,12 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  const lis = document
+  var lis = document
   .getElementById('grand-node')
   var child = "";
   if (lis.hasChildNodes()) {
     child = lis.childNodes;
     lis = child;
   }
-  return child;
+  return lis;
 }
