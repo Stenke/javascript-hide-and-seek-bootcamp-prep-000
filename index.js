@@ -21,5 +21,5 @@ function deepestChild() {
   const lis = document
   .getElementById('grand-node')
   var child = "";
-  if (lis.hasC)
+  if (lis.hasChildNodes())
 }
