@@ -24,4 +24,5 @@ function deepestChild() {
     lis = nextLis;
     nextLis = lis.children[0];
   }
+  return lis
 }
